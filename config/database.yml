@@ -1,16 +1,18 @@
 development:
-  adapter: sqlite3
-  database: db/monster_development
+  adapter: postgresql
+  database: monster_development
   pool: 5
   timeout: 5000
   username: monster
+  password: test
 
 test:
-  adapter: sqlite3
-  database: db/monster_test
+  adapter: postgresql
+  database: monster_test
   pool: 5
   timeout: 5000
   username: monster
+  password: test
 
 production:
   adapter: postgresql

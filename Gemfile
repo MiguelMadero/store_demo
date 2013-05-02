@@ -38,6 +38,7 @@ group :development, :test do
   gem 'puma'
   gem 'pry'
   gem 'pry-rails'
+  gem 'pg'
 end
 
 group :test do
