@@ -35,6 +35,9 @@ group :development, :test do
   gem 'simplecov'
   gem 'quiet_assets'
   gem 'poltergeist'
+  gem 'puma'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :test do

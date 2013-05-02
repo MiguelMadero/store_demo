@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     session_params = params[:sessions]
+    
     user = login(session_params[:email],
                  session_params[:password],
                  session_params[:remember_me]
