@@ -8,6 +8,6 @@ class StoreConfig
   end
 
   def self.email_address
-    "me@miguelmadero.com"
+    "heroku@miguelmadero.com"
   end
 end
